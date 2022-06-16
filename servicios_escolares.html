@@ -1,0 +1,341 @@
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title> control estadias </title>
+</head>
+
+<body>
+	<br>
+	<table>
+		<tr>
+			<td>programa edu</td>
+			<td>estudi insc</td>
+			<td>estudi term</td>
+</tr>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> </title>
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Programa edu</td>
+		<td>Estudi insc</td>
+		<td>Estudi term</td>
+</tr>
+<?php
+$sql="SELECT * from control estadias";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['programa edu'] ?></td>
+	<td><?php echo $mostrar['estudi insc']?></td>
+    <td><?php echo $mostrar['estudi term']?></td>
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> calendario anual </title>
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Ciclo Esco</td>
+		<td>Cuatrimestre</td>
+</tr>
+<?php
+$sql="SELECT * from calendario anual";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['ciclo esco'] ?></td>
+	<td><?php echo $mostrar['cuatrimestre']?></td>
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> Preinscritos  </title>
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Requisitos</td>
+		<td>Preinsc</td>
+</tr>
+<?php
+$sql="SELECT * from preinsc";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['Requisitos'] ?></td>
+	<td><?php echo $mostrar['Preinsc']?></td>
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> Inscritos  </title>
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Programa Educativo </td>
+		<td>Numero Ofertados</td>
+		<td>Inscritos </td>
+</tr>
+<?php
+$sql="SELECT * from inscritos ";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['programa_edu'] ?></td>
+	<td><?php echo $mostrar['numero_ofertados']?></td>
+	<td><?php echo $mostrar['inscritos']
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>inscritos examenes</title> 
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Programa Educativo </td>
+		<td> Pase Directo</td>
+		<td>Otro</td>
+</tr>
+<?php
+$sql="SELECT * from inscrit_exam ";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['programa_educa'] ?></td>
+	<td><?php echo $mostrar[' pase_directo']?></td>
+	<td><?php echo $mostrar[' otro']
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Cursos Poa </title> 
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td> Meta Programada POA</td>
+		<td> Cuatrimestre</td>
+		<td>Anual</td>
+</tr>
+<?php
+$sql="SELECT * from  cursospoa ";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['meta_programadaPOA'] ?></td>
+	<td><?php echo $mostrar['cuatrimestre']?></td>
+	<td><?php echo $mostrar['anual']?></td>
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Costos</title> 
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Tramites</td>
+		<td>Costos</td>
+</tr>
+<?php
+$sql="SELECT * from costos ";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['tramites'] ?></td>
+	<td><?php echo $mostrar['costos']?></td>
+	
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Metas Siprep</title> 
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Meta Programada</td>
+		<td>Cuatrimestre</td>
+		<td>anual</td>
+</tr>
+<?php
+$sql="SELECT * from metas_siprep ";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['meta_programadaPOA'] ?></td>
+	<td><?php echo $mostrar['cuatrimestre']?></td>
+	<td><?php echo $mostrar['anual']
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> Meta Programada POA</title> 
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Meta Programada POA</td>
+		<td>Cuatrimestre</td>
+		<td>anual</td>
+</tr>
+<?php
+$sql="SELECT * from meta_programadaPOA ";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['meta_programadaPOA'] ?></td>
+	<td><?php echo $mostrar['cuatrimestre']?></td>
+	<td><?php echo $mostrar['anual']
+</tr>
+<?php
+}
+?>
+<?php
+require 'conexion.php';
+?>
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> Titulos</title> 
+</head>
+
+<body>
+	<br>
+	<table border ="1">
+		<tr>
+		<td>Programa Educativo</td>
+		<td>Sexo</td>
+		<td>Total</td>
+</tr>
+<?php
+$sql="SELECT * from titulos ";
+$result=mysqli_query($conexion,$sql);
+while ($mostrar=mysqli_fetch_array($result)) {
+?>
+
+<tr>
+	<td><?php echo $mostrar ['programa_edu'] ?></td>
+	<td><?php echo $mostrar['sexo']?></td>
+	<td><?php echo $mostrar['total']
+</tr>
+<?php
+}
+?>
