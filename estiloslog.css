@@ -1,0 +1,218 @@
+#  UPCIcuerpo {
+cuerpo {
+	fondo :  URL (bl.jpg);
+	<img src = "bl.jpg"  estilo = "ancho: 1500px; alto: 800px;" >
+ familia tipográfica :  calibri ;
+}
+
+# desde el inicio de sesión {
+ancho :  320 píxeles ;
+altura :  360 píxeles ;
+fondo :  # 4CAF50 ;
+margen : automático;
+margen superior :  180 px ;
+sombra de caja :  7 px  13 px  37 px  # E57373 ;
+relleno :  20 px  30 px ;
+borde superior :  4 px sólido # C62828 ;
+color : blanco;
+}
+h4 {
+
+color : negro;
+margen :  0 píxeles ;
+alineación de texto : centro;
+altura :  40 píxeles ;
+margen inferior :  15 px ;
+}
+pag {
+altura :  1 píxel ;
+alineación de texto : centro;
+borde inferior :  1 px ;
+margen superior :  5 px ;
+}
+
+# como {
+	margen izquierdo :  5 px ;
+	margen derecho :  5 px ;
+}
+
+# cajas_num1 {
+ancho :  90 % ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+# cajas_num2 {
+ancho :  90 % ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+# cajas_num3 {
+ancho :  185 píxeles ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+h5 {
+ancho :  175 píxeles ;
+borde :  1 píxel ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+margen izquierdo :  5 px ;
+}
+
+Pantalla @media y ( ancho máximo :  688 px )
+{
+# desde el inicio de sesión {
+ancho :  250 píxeles ;
+altura :  420 píxeles ;
+fondo :  # 4CAF50 ;
+margen : automático;
+margen superior :  30 px ;
+sombra de caja :  7 px  13 px  37 px  # E57373 ;
+relleno :  2 px  3 px ;
+borde superior :  4 px sólido # C62828 ;
+color : blanco;
+}
+# como {
+	margen izquierdo :  4 px ;
+	margen derecho :  4 px ;
+}
+
+# cajas_num1 {
+ancho :  80 % ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+# cajas_num2 {
+ancho :  80 % ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+# cajas_num3 {
+ancho :  100 píxeles ;
+altura :  4 píxeles
+borde: 1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+}
+
+@media ( ancho mínimo :  689 px ) y ( ancho máximo :  1000 px )
+{
+	# desde el inicio de sesión {
+ancho :  280 píxeles ;
+altura :  420 píxeles ;
+fondo :  # 4CAF50 ;
+margen : automático;
+margen superior :  30 px ;
+sombra de caja :  7 px  13 px  37 px  # E57373 ;
+relleno :  2 px  3 px ;
+borde superior :  4 px sólido # C62828 ;
+color : blanco;
+}
+# como {
+	margen izquierdo :  5 px ;
+	margen derecho :  5 px ;
+}
+
+# cajas_num1 {
+ancho :  90 % ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+# cajas_num2 {
+ancho :  90 % ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+# cajas_num3 {
+ancho :  130 píxeles ;
+altura :  6 píxeles
+borde: 1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+}
+@media ( ancho mínimo :  1001 px ) y ( ancho máximo :  1300 px )
+{
+		# desde el inicio de sesión {
+ancho :  290 píxeles ;
+altura :  420 píxeles ;
+fondo :  # 4CAF50 ;
+margen : automático;
+margen superior :  30 px ;
+sombra de caja :  7 px  13 px  37 px  # E57373 ;
+relleno :  2 px  3 px ;
+borde superior :  4 px sólido # C62828 ;
+color : blanco;
+}
+# como {
+	margen izquierdo :  5 px ;
+	margen derecho :  5 px ;
+}
+
+# cajas_num1 {
+ancho :  95 % ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+# cajas_num2 {
+ancho :  95 % ;
+borde :  1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+# cajas_num3 {
+ancho :  170 píxeles ;
+altura :  6 píxeles
+borde: 1 px sólido # 020849 ;
+margen inferior :  15 px ;
+relleno :  11 px  10 px ;
+color de fondo :  # EEEEF4 ;
+tamaño de fuente :  14 px ;
+fuente-peso : negrita;
+}
+}
