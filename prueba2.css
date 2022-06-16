@@ -1,0 +1,303 @@
+#UPCI _
+* {
+    margen :  0 ;
+    relleno :  0 ;
+    tamaño de caja : cuadro de borde;
+    familia de fuentes :  'Poppins' , Arial;
+}
+
+cuerpo {
+    min-altura :  100 vh ;
+}
+
+li {
+    estilo de lista : ninguno;
+}
+
+h1
+{
+    color :  # f1f1f1 ;
+}
+h2 {
+    color :  # 444 ;
+}
+
+h3 {
+    color :  # 999 ;
+}
+
+. botón {
+    fondo :  # 4CAF50 ;
+    color : blanco;
+    relleno :  5 px  10 px ;
+    alineación de texto : centro;
+}
+
+. btn : flotar {
+    color : blanco;
+    fondo :  # 009688 ;
+    relleno :  3 px  8 px ;
+    borde :  2 px sólido # 4CAF50 ;
+}
+
+. título {
+    pantalla : flexible;
+    alinear elementos : centro;
+    justificar-contenido : espacio-alrededor;
+    relleno :  15 px  10 px ;
+    borde inferior :  2 px sólido # 999 ;
+}
+
+mesa {
+    relleno :  10 px ;
+}
+
+th ,
+td {
+    alineación de texto : izquierda;
+    relleno :  8 px ;
+}
+
+. menú lateral {
+    posición : fijo;
+    fondo :  # 4CAF50 ;
+    ancho :  20 vw ;
+    min-altura :  100 vh ;
+    pantalla : flexible;
+    dirección de flexión : columna;
+}
+
+/* menú*/
+. menú superior . extensión del logotipo  {
+    tamaño de fuente :  20 px ;
+    margen izquierdo :  20 px ;
+    pantalla : ninguno;
+}
+
+. menú _ enlace {
+    ancho :  100 % ;
+    relleno :  20 px  0  20 px  17 px ;
+    borde-radio :  8 px ;
+    pantalla : flexible;
+    alinear elementos : centro;
+    margen inferior :  20 px ;
+    cursor : puntero;
+    tamaño de fuente :  20 px ;
+    transición : todos .3 s facilidad;
+}
+
+#lupa _
+{
+   ancho :  50 píxeles ;
+    altura :  20 píxeles ;
+}
+
+/* menú */
+
+. menú lateral . nombre de marca {
+    altura :  10vh ; _
+    pantalla : flexible;
+    alinear elementos : centro;
+    justificar-contenido : centro;
+}
+
+. menú lateral  li {
+    tamaño de fuente :  24 px ;
+    relleno :  10 px  40 px ;
+    color : blanco;
+    pantalla : flexible;
+    alinear elementos : centro;
+}
+
+. menú lateral  li : flotar {
+    fondo :  # 009688 ;
+    color : blanco;
+}
+
+. contenedor {
+    posición : absoluta;
+    derecha :  0 ;
+    ancho :  80 vw ;
+    altura :  100 vh ;
+    fondo :  # f1f1f1 ;
+}
+
+. contenedor _ encabezado {
+    posición : fijo;
+    superior :  0 ;
+    derecha :  0 ;
+    ancho :  80 vw ;
+    altura :  10vh ; _
+    fondo : blanco;
+    pantalla : flexible;
+    alinear elementos : centro;
+    justificar-contenido : centro;
+    sombra de caja :  0  4 px  8 px  0  rgba ( 0 ,  0 ,  0 ,  0.2 );
+    índice z :  1 ;
+}
+
+. contenedor _ encabezado _ navegación {
+    ancho :  90 % ;
+    pantalla : flexible;
+    alinear elementos : centro;
+}
+
+. contenedor _ encabezado _ navegación _ buscar {
+    flexión :  3 ;
+    pantalla : flexible;
+    justificar-contenido : centro;
+}
+
+. contenedor _ encabezado _ navegación _ entrada de búsqueda  [ tipo = texto ] {
+    borde : ninguno;
+    fondo :  # f1f1f1 ;
+    relleno :  10 px ;
+    ancho :  50 % ;
+}
+
+. contenedor _ encabezado _ navegación _ botón de búsqueda  {
+    ancho :  40 píxeles ;
+    altura :  40 píxeles ;
+    borde : ninguno;
+    pantalla : flexible;
+    alinear elementos : centro;
+    justificar-contenido : centro;
+}
+
+. contenedor _ encabezado _ navegación _ usuario {
+    flexión :  1 ;
+    pantalla : flexible;
+    justificar-contenido : espacio-entre;
+    alinear elementos : centro;
+}
+
+. contenedor _ encabezado _ navegación _ imagen de usuario  {
+    ancho :  40 píxeles ;
+    altura :  40 píxeles ;
+}
+
+# foto
+{
+    ancho :  20 píxeles ;
+    altura :  20 píxeles ;
+}
+
+# foto1
+{
+    ancho :  60 píxeles ;
+    altura :  60 píxeles ;
+}
+
+. contenedor _ encabezado _ navegación _ usuario _ img-caso {
+    posición : relativa;
+    ancho :  50 píxeles ;
+    altura :  50 píxeles ;
+}
+
+. contenedor _ encabezado _ navegación _ usuario _ img-caso  img {
+    posición : absoluta;
+    superior :  0 ;
+    izquierda :  0 ;
+    ancho :  100 % ;
+    altura :  100 % ;
+}
+
+. contenedor _ contenido {
+    posición : relativa;
+    margen superior :  10 vh ;
+    min-altura :  90 vh ;
+    fondo :  # f1f1f1 ;
+}
+
+. contenedor _ contenido _ cartas {
+    relleno :  20 px  15 px ;
+    pantalla : flexible;
+    alinear elementos : centro;
+    justificar-contenido : espacio-entre;
+    envoltura flexible : envoltura;
+}
+
+. contenedor _ contenido _ tarjetas _ tarjeta {
+    ancho :  250 píxeles ;
+    altura :  150 píxeles ;
+    fondo : blanco;
+    margen :  20 px  10 px ;
+    pantalla : flexible;
+    alinear elementos : centro;
+    justificar-contenido : espacio-alrededor;
+    box-shadow :  0  4 px  8 px  0  rgba ( 0 ,  0 ,  0 ,  0.2 ) ,  0  6 px  20 px  0  rgba ( 0 ,  0 ,  0 ,  0.19 );
+}
+
+. contenedor _ contenido _ contenido-2 {
+    min-altura :  60 vh ;
+    pantalla : flexible;
+    justificar-contenido : espacio-alrededor;
+    alinear elementos : inicio flexible;
+    envoltura flexible : envoltura;
+}
+
+. contenedor _ contenido _ contenido-2 . pagos recientes {
+    min-altura :  50 vh ;
+    flexión :  5 ;
+    fondo : blanco;
+    margen :  0  25 px  25 px  25 px ;
+    box-shadow :  0  4 px  8 px  0  rgba ( 0 ,  0 ,  0 ,  0.2 ) ,  0  6 px  20 px  0  rgba ( 0 ,  0 ,  0 ,  0.19 );
+    pantalla : flexible;
+    dirección de flexión : columna;
+}
+
+. contenedor _ contenido _ contenido-2 . nuevos estudiantes {
+    flexión :  2 ;
+    fondo : blanco;
+    min-altura :  50 vh ;
+    margen :  0  25 px ;
+    box-shadow :  0  4 px  8 px  0  rgba ( 0 ,  0 ,  0 ,  0.2 ) ,  0  6 px  20 px  0  rgba ( 0 ,  0 ,  0 ,  0.19 );
+    pantalla : flexible;
+    dirección de flexión : columna;
+}
+
+. contenedor _ contenido _ contenido-2 . tabla de nuevos estudiantes  td : nth-child ( 1 ) img { 
+    altura :  40 píxeles ;
+    ancho :  40 píxeles ;
+}
+
+Pantalla @media y ( ancho máximo :  1050 px ) {
+    . menú lateral  li {
+        tamaño de fuente :  18 px ;
+    }
+}
+
+Pantalla @media y ( ancho máximo :  940 px ) {
+    . menú lateral  li  span {
+        pantalla : ninguno;
+    }
+    . menú lateral {
+        alinear elementos : centro;
+    }
+    . menú lateral  li  img {
+        ancho :  40 píxeles ;
+        altura :  40 píxeles ;
+    }
+    . menú lateral  li : flotar {
+        fondo :  # f05462 ;
+        relleno :  8 px  38 px ;
+        borde :  2 px blanco sólido;
+    }
+}
+
+Pantalla @media y ( ancho máximo : 536 px ) {
+    . marca  h1 {
+        tamaño de fuente :  16 px ;
+    }
+    . contenedor _ contenido _ cartas {
+        justificar-contenido : centro;
+    }
+    . menú lateral  li  img {
+        ancho :  30 píxeles ;
+        altura :  30 píxeles ;
+    }
+    . contenedor _ contenido _ contenido-2 . tabla de pagos recientes  th : nth-child ( 2 ) , 
+    . contenedor _ contenido _ contenido-2 . tabla de pagos recientes  td : nth-child ( 2 ) { 
+        pantalla : ninguno;
+    }
+}
